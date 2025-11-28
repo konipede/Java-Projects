@@ -61,8 +61,8 @@ public class MyPQ {
         Car swap = pq[i];
         pq[i] = pq[j];
         pq[j] = swap;
-        dlb.updateIndex(pq[i].Vin, i);
-        dlb.updateIndex(pq[j].Vin, j);
+        dlb.updateIndex(pq[i].getVIN(), i);
+        dlb.updateIndex(pq[j].getVIN(), j);
     }
 
     private boolean greater(int i, int j) {
