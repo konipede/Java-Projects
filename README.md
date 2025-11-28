@@ -7,7 +7,7 @@ This repository contains two advanced Java projects demonstrating data structure
 
 ## Projects
 
-### 🚗 [Car Inventory System](./car-inventory-system/)
+###  [Car Inventory System](./car-inventory-system/)
 A sophisticated car inventory management system that uses priority queues and DLB trees to efficiently manage and query car data by price and mileage.
 
 **Key Features:**
@@ -15,7 +15,7 @@ A sophisticated car inventory management system that uses priority queues and DL
 - DLB (De La Briandais) tree for fast string searching
 - Efficient car lookup and updates
 
-### 🌐 [Network Analysis](./network-analysis/)
+###  [Network Analysis](./network-analysis/)
 A comprehensive network analysis tool implementing graph algorithms for analyzing network connectivity, finding shortest paths, and determining network resilience.
 
 **Key Features:**
@@ -54,8 +54,4 @@ Each project contains its own README with detailed information about compilation
 ## Author
 
 Kerem
-
-## License
-
-This project is for educational purposes.
 
