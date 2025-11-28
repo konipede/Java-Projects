@@ -1,0 +1,11 @@
+VIN001,Toyota,Camry,25000,50000,Blue
+VIN002,Honda,Civic,22000,30000,Red
+VIN003,Toyota,Camry,23000,45000,Silver
+VIN004,Ford,Focus,18000,60000,Black
+VIN005,Honda,Civic,20000,35000,White
+VIN006,Toyota,Corolla,21000,40000,Gray
+VIN007,BMW,3 Series,35000,25000,Black
+VIN008,Mercedes,C-Class,40000,20000,Silver
+VIN009,Toyota,Camry,24000,55000,White
+VIN010,Honda,Accord,26000,40000,Blue
+

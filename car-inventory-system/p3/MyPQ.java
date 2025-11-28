@@ -76,20 +76,36 @@ public class MyPQ {
         pq = newPq;
         
     }
-   public void delete(String vin) throws NoSuchElementException {
+     public void delete(String vin) throws NoSuchElementException {
         int index = dlb.getIndex(vin);
-        if (index == -1) {
+        if (index == -1 || index >= n) {
             throw new NoSuchElementException("Car with VIN " + vin + " not found.");
         }
+        if (n == 1) {
+            // Only one element, just remove it
+            dlb.updateIndex(vin, -1);
+            pq[0] = null;
+            n = 0;
+            return;
+        }
+        // Swap with last element
         swap(index, n - 1);
         dlb.updateIndex(vin, -1); // Set the index in DLB to -1 to indicate deletion
         n--;
-        sink(index);
-        swim(index);
+        // Reheapify
+        if (index < n) {
+            sink(index);
+            swim(index);
+        }
     }
     
-
-
+    public int size() {
+        return n;
+    }
+    
+    public boolean isEmpty() {
+        return n == 0;
+    }
 
 
 
